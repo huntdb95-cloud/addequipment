@@ -82,17 +82,21 @@
     </select>
 
     <!-- Lienholder -->
-    <div class="checkbox-group">
-      <label id="labelLien">
-        <input type="checkbox" id="lienholderCheckbox" name="lienholder"> Lienholder
-      </label>
-    </div>
+<div class="checkbox-group">
+  <label>
+    <input type="checkbox" id="lienholderCheckbox" name="lienholder">
+    <span data-i18n="labelLien">Lienholder</span>
+  </label>
+</div>
 
-    <!-- Lienholder Name (hidden until checkbox is checked) -->
-    <div id="lienholderField">
-      <label for="lienholderName" id="labelLienName">Lienholder Name</label>
-      <input type="text" id="lienholderName" name="lienholder_name">
-    </div>
+<!-- Lienholder Name (hidden until checkbox is checked) -->
+<div id="lienholderField">
+  <label for="lienholderName">
+    <span data-i18n="labelLienName">Lienholder Name</span>
+  </label>
+  <input type="text" id="lienholderName" name="lienholder_name">
+</div>
+
 
     <!-- Submit -->
     <button type="submit" id="submitBtn">Submit Request</button>
@@ -187,3 +191,4 @@
   </script>
 </body>
 </html>
+
